@@ -1,0 +1,200 @@
+#about {
+  padding: 96px 0px;
+  background-color: #f9fafb;
+
+  .about_wrapper {
+    margin-top: 48px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &_left {
+      margin-top: 44px;
+      border: 8px solid #fff;
+      background-color: #e5e7eb;
+      width: 400px;
+      height: 480px;
+      .avatar2 {
+        margin-top: -52px;
+        margin-left: 40px;
+        border: 8px solid #fff;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        min-width: 400px;
+        height: 480px;
+      }
+    }
+    &_right {
+      margin-left: 60px;
+      h2 {
+        font-size: 30px;
+      }
+      .informations {
+        max-width: 584px !important;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        .ul_2 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #about {
+    .about_wrapper {
+      &_left {
+        margin-top: 44px;
+        border: 8px solid #fff;
+        background-color: #e5e7eb;
+        width: 350px !important;
+        height: 430px !important;
+        .avatar2 {
+          z-index: 99;
+          margin-top: -52px;
+          margin-left: 40px;
+          border: 8px solid #fff;
+          background-repeat: no-repeat;
+          min-width: 350px !important;
+          height: 430px !important;
+        }
+      }
+
+      &_right {
+        margin-left: 60px !important;
+        .informations {
+          max-width: 584px !important;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 940px) {
+  #about {
+    .about_wrapper {
+      &_left {
+        margin-top: 44px;
+        border: 8px solid #fff;
+        background-color: #e5e7eb;
+        width: 300px !important;
+        height: 380px !important;
+        .avatar2 {
+          z-index: 99;
+          margin-top: -52px;
+          margin-left: 40px;
+          border: 8px solid #fff;
+          background-repeat: no-repeat;
+          min-width: 300px !important;
+          height: 380px !important;
+        }
+      }
+
+      &_right {
+        margin-left: 60px !important;
+        .informations {
+          max-width: 584px !important;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #about {
+    .about_wrapper {
+      margin-top: 28px !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      &_left {
+        display: flex;
+        margin-top: 44px;
+        border: 8px solid #fff;
+        background-color: #e5e7eb;
+        width: 355px !important;
+        height: 360px !important;
+        .avatar2 {
+          z-index: 99;
+          margin-top: -35px !important;
+          margin-left: 20px !important;
+          border: 8px solid #fff;
+          background-repeat: no-repeat;
+          width: 280px !important;
+          height: 360px !important;
+        }
+      }
+
+      &_right {
+        margin-top: 48px;
+        margin-left: 60px !important;
+        .informations {
+          max-width: 584px !important;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+        }
+        h2 {
+          font-size: 24px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 620px) {
+  #about {
+    padding: 64px 0px !important;
+
+    .about_wrapper {
+      &_right {
+        text-align: center;
+        margin-top: 48px !important;
+        margin-left: 0px !important;
+        .informations {
+          max-width: 584px !important;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+        }
+
+        h2 {
+          font-size: 24px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  #about {
+    padding: 64px 0px !important;
+
+    .about_wrapper {
+      &_right {
+        text-align: center;
+        margin-top: 48px !important;
+        margin-left: 0px !important;
+        .informations {
+          max-width: 584px !important;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+          .ul_1 {
+            display: none;
+          }
+          .ul_2 {
+            display: flex;
+          }
+        }
+        h2 {
+          font-size: 24px !important;
+        }
+      }
+    }
+  }
+}

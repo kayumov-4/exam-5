@@ -1,0 +1,21 @@
+#work {
+  padding: 96px 0px;
+  .work_wrapper {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #work {
+    padding: 64px 0px !important;
+    .work_wrapper {
+      margin-top: 24px !important;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+  }
+}
